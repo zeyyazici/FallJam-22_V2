@@ -214,7 +214,7 @@ Transform:
   m_LocalScale: {x: 1.502, y: 1.502, z: 1.502}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1213988165
 GameObject:
@@ -271,7 +271,7 @@ Transform:
   m_LocalScale: {x: 11.693276, y: 10.316445, z: 2.881766}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90.625, z: 0}
 --- !u!1 &1655258761
 GameObject:
@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 1655258764}
   - component: {fileID: 1655258763}
   - component: {fileID: 1655258762}
+  - component: {fileID: 1655258765}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -326,7 +327,7 @@ Camera:
   far clip plane: 999.9
   field of view: 60
   orthographic: 1
-  orthographic size: 15.6
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -350,12 +351,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655258761}
   m_LocalRotation: {x: -0.064530864, y: -0.931732, z: 0.2921657, w: -0.20579237}
-  m_LocalPosition: {x: -151.5, y: 33, z: 24.8}
+  m_LocalPosition: {x: -163.71, y: 29.63, z: 24.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 34.82, y: -204.91, z: 0}
+--- !u!114 &1655258765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655258761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba0fd1ec44234d438e752536a448d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1820789746}
 --- !u!1 &1820789746
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +501,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1820789753
 Rigidbody:
