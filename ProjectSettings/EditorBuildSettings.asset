@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/teleport.unity
-    guid: 498e9988b0a1dff4d8fe38302998153e
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/2_Underground_Scene.unity
+    guid: ac5d554c0d29fef4f97581cc1996a980
   - enabled: 1
     path: "Assets/Scenes/B\xF6l\xFCmbir.unity"
     guid: 80450b85d4fed8c43a80e66254b4b4bd

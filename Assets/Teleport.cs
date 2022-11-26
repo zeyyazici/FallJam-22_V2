@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
-
-public class teleportt : MonoBehaviour
+public class Teleport : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(1);
-        //asjasa
+        if(other.CompareTag("Player"))
+        {
+            Debug.Log("dghgd");
+            SceneManager.LoadScene(1);
+        }
+       
     }
+
+
 }
-
-
