@@ -12,10 +12,11 @@ public class KeyPad1 : MonoBehaviour
     public Text passwordText;
 
     public string password;
+    private bool isChecking = false;
 
     private void Start()
     {
-        passwordText.text = " ";
+        passwordText.text = "";
     }
 
     public void OpenKeyUI()
@@ -26,18 +27,28 @@ public class KeyPad1 : MonoBehaviour
 
     public void KeyButton(string key)
     {
-     
+        if(isChecking == true) { return; }
+
         Debug.Log(key);
         passwordText.text = passwordText.text + key;
+
+        if(passwordText.text.Length == 3)
+        {
+            isChecking = true;
+            Invoke("CheckPassword", 1f);
+        }
+        
     }
 
     public void ResetPassword()
     {
         Debug.Log("reset");
-        passwordText.text = " ";
+        passwordText.text = "";
     }
     public void CheckPassword()
     {
+        isChecking = true;
+
         if(passwordText.text == password)
         {
             doorToOpen.isLocked = false;
@@ -48,6 +59,8 @@ public class KeyPad1 : MonoBehaviour
         {
             ResetPassword();
         }
+
+        isChecking = false;
     }
 
     // Start is called before the first frame update
