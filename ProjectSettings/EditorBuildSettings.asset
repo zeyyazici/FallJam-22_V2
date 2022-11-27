@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/2_Underground_Scene.unity
     guid: ac5d554c0d29fef4f97581cc1996a980
   - enabled: 1
-    path: "Assets/Scenes/B\xF6l\xFCmbir.unity"
-    guid: 80450b85d4fed8c43a80e66254b4b4bd
+    path: Assets/Scenes/3_Elevator.unity
+    guid: bf2fe8e883be7ac458e3e002ea913f6b
+  - enabled: 1
+    path: Assets/Scenes/4_UndergroundElevator.unity
+    guid: d17cc68201aa39346aec5d778795e4b7
   m_configObjects: {}
