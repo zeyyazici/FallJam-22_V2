@@ -10,7 +10,7 @@ public class Teleport : MonoBehaviour
        
         {
             
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(4);
         }
        
     }

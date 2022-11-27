@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class KeyPad1 : MonoBehaviour
 {
 
-    public DoorController doorToOpen;
+   
     public GameObject KeypadUI;
 
     public Text passwordText;
@@ -51,9 +52,10 @@ public class KeyPad1 : MonoBehaviour
 
         if(passwordText.text == password)
         {
-            doorToOpen.isLocked = false;
-            doorToOpen.CheckDoor();
+           
             KeypadUI.SetActive(false);
+            SceneManager.LoadScene(5);
+
         }
         else
         {
