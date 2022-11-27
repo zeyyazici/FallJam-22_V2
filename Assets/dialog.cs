@@ -22,9 +22,12 @@ public class dialog : MonoBehaviour
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
-
+            
 
         }
+
+        NextSentences();
+       
     }
     // Start is called before the first frame update
     
