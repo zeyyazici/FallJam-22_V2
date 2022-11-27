@@ -1611,6 +1611,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6f1639880b5165448a703baffb784be3, type: 2}
+    - target: {fileID: 6947464325843983966, guid: c035ef857abc41443aa952337c36db96, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c8004c83ef757444b9ca2e8e688ff0d8, type: 2}
     - target: {fileID: 8009987137999418058, guid: c035ef857abc41443aa952337c36db96, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -1843,8 +1847,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807405061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.9, y: 35.04, z: 206.3}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 49.882, y: 34.747, z: 206.3}
+  m_LocalScale: {x: 13.106001, y: 13.106001, z: 13.106001}
   m_Children:
   - {fileID: 1365923346}
   m_Father: {fileID: 0}
@@ -5464,7 +5468,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2022191657
 BoxCollider:
   m_ObjectHideFlags: 0
